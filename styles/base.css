@@ -17,7 +17,6 @@ body {
 }
 
 header {
-  /* max-width: 414px; */
   background-color: var(--secondColor);
   display: flex;
   align-items: center;
@@ -47,7 +46,6 @@ nav {
   align-items: center;
   justify-content: center;
   background-color: var(--firstColor);
-  /* max-width: 800px; */
 }
 
 nav ul {
@@ -74,7 +72,6 @@ nav a:hover {
 ul {
   display: flex;
   flex-direction: column;
-  /* text-align: left; */
   list-style: none;
   padding: 0;
 }
