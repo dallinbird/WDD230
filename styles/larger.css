@@ -1,0 +1,29 @@
+@media screen and (min-width: 650px) {
+  nav ul {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  nav ul li a {
+    width: 9rem;
+  }
+
+  main {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  h1 {
+    grid-column: 1/6;
+  }
+
+  #learningActivities {
+    grid-column: 1/4;
+    text-align: center;
+  }
+
+  #information {
+    grid-column: 4/6;
+  }
+}

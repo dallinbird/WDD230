@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dallin_Bird-WDD_230-WEB_FRONTEND_DEVELOPMENT</title>
     <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
     <meta
       name="description"
       content="WDD 230 - Web Frontend Development Dallin Bird course assignment portal"
@@ -21,22 +22,22 @@
     </header>
     <nav>
       <ul>
-        <li><a href="">Home</a></li>
+        <li class="home"><a href="">Home</a></li>
         <li><a href="">Chamber</a></li>
         <li><a href="">Site Plan</a></li>
-        <li><a href="">form</a></li>
+        <li><a href="">Form</a></li>
       </ul>
     </nav>
     <main>
       <h1>WDD 230: Web Frontend Development</h1>
-      <section class="card">
+      <section class="card" id="learningActivities">
         <h2>Learning Activities</h2>
-        <ul>
+        <ul class="weeks">
           <li>
             Week 1:
             <a href="week01/holygrail.html">Holy Grail,</a>
             <a href="week01/media-query.html">Media Query</a>
-            <a href="">Javascript Applied</a>
+            <a href="#">Javascript Applied</a>
           </li>
           <li>
             Week 2
@@ -65,7 +66,7 @@
         </ul>
       </section>
 
-      <section class="card">
+      <section class="card" id="information">
         <h2>Information</h2>
         <div>Rexburg, Idaho</div>
         <div>Weather information</div>
@@ -78,7 +79,7 @@
         &copy;<span>2024</span>, Dallin Bird, USA Idaho
         <img class="flag" src="" alt="" />
       </p>
-      <p id="lastModified"></p>
+      <p id="lastModified">Last Modified:</p>
     </footer>
 
     <script src="scripts/defualt.js"></script>
