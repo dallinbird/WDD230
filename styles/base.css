@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&family=Roboto:wght@300&display=swap");
+
 :root {
   --firstColor: rgb(80, 137, 177);
   --secondColor: rgb(98, 165, 214);
@@ -14,10 +16,13 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  font-family: var(--primary-font);
 }
 
 header {
   background-color: var(--secondColor);
+  font-family: var(--primary-font);
+  font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,7 +86,7 @@ a {
 }
 
 main {
-  text-align: center;
+  width: 414px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   justify-content: center;
@@ -99,6 +104,7 @@ h2 {
   padding-bottom: 5px;
   background-color: var(--firstColor);
   font-weight: 900;
+  margin: 0;
 }
 
 .card {
@@ -123,4 +129,18 @@ h2 {
 #information p {
   padding-top: 6px;
   padding-bottom: 6px;
+}
+
+footer {
+  background-color: var(--secondColor);
+  padding-top: 10px;
+  padding-bottom: 20px;
+  /* position: fixed; */
+  width: 100%;
+  bottom: 0;
+}
+
+footer p {
+  padding-bottom: 5px;
+  font-weight: bold;
 }

@@ -9,6 +9,7 @@
   }
 
   main {
+    width: auto;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     column-gap: 20px;
     max-width: 900px;

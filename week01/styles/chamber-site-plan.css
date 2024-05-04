@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuggles&family=Inconsolata&display=swap");
+
+:root {
+  --firstColor: rgb(201, 203, 163);
+  --secondColor: rgb(62, 137, 137);
+  --thirdColor: #8d7471;
+  --primaryFont: "Inconsolata", sans-serif;
+  --secondaryFont: "#";
+  --titalFont: "Fuggles", sans-serif;
+  --first-font-color: rgb(2, 21, 4);
+}
+
+* {
+  /* border: 2px solid black; */
+  margin: 0;
+  padding: 0;
+  background-color: var(--thirdColor);
+  font-size: 1.3rem;
+}
+
+body {
+  max-width: 800px;
+  margin: 1rem auto;
+  text-align: center;
+  font-family: var(--primaryFont);
+}
+
+header {
+  border: 3.5px solid var(--secondColor);
+  /* border-radius: 50%; */
+}
+
+h1,
+h2,
+h3 {
+  background-color: var(--secondColor);
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+p {
+  background-color: var(--firstColor);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+section {
+  margin-top: 20px;
+}
+
+header h1 {
+  font-size: 2rem;
+  background-color: var(--secondColor);
+  font-family: var(--titalFont);
+  padding-bottom: 15px;
+  color: var(--first-font-color);
+}
+
+header p {
+  background-color: var(--firstColor);
+  padding-bottom: 15px;
+}
+
+section {
+  border: 3.5px solid var(--secondColor);
+}
+
+#mission {
+  margin-top: 20px;
+  border: 3.5px solid var(--secondColor);
+}
+
+#mission h2 {
+  background-color: var(--secondColor);
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+#mission p {
+  background-color: var(--firstColor);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+li {
+  background-color: var(--firstColor);
+  list-style-type: none;
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#colorSchema li {
+  background-color: white;
+}
+
+div {
+  border: 3.5px solid black;
+  min-width: 50px;
+  min-height: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#firstC {
+  background-color: var(--firstColor);
+}
+
+#secondC {
+  background-color: var(--secondColor);
+}
+
+#thirdC {
+  background-color: var(--thirdColor);
+  margin-bottom: 25px;
+}
+
+#titleF {
+  text-align: center;
+  font-family: var(--titalFont);
+  font-size: 5rem;
+}
+
+#mainF {
+  font-size: 3.5rem;
+  text-align: center;
+  font-family: var(--primaryFont);
+  padding-bottom: 15px;
+}
+
+.wireframes {
+  margin-bottom: 200px;
+}
+
+.wireframeMain {
+  width: 100%;
+  border-radius: 2%;
+}
+
+.wireframeMobile {
+  border-radius: 1.5%;
+}
+
+footer {
+  max-width: 800px;
+  background-color: var(--secondColor);
+  padding-top: 10px;
+  padding-bottom: 20px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  margin-top: 20px;
+}
+
+footer a {
+  font-family: var(--primaryFont);
+  font-size: 1.2rem;
+  background-color: var(--secondColor);
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  color: var(--firstColor);
+}
