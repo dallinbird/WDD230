@@ -64,9 +64,9 @@ nav ul {
 nav a {
   display: block;
   text-decoration: none;
-  padding: 0.7rem;
+  padding: 0.8rem;
   color: black;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 nav a:hover {
@@ -90,7 +90,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   justify-content: center;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 h1 {
@@ -134,8 +134,8 @@ h2 {
 footer {
   background-color: var(--secondColor);
   padding-top: 10px;
-  padding-bottom: 20px;
-  /* position: fixed; */
+  padding-bottom: 5px;
+  position: fixed;
   width: 100%;
   bottom: 0;
 }
@@ -143,5 +143,4 @@ footer {
 footer p {
   padding-bottom: 5px;
   font-weight: bold;
-  display: inline;
 }

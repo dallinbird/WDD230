@@ -27,4 +27,8 @@
   #information {
     grid-column: 4/6;
   }
+
+  footer p {
+    display: inline;
+  }
 }
