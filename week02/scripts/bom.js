@@ -5,11 +5,8 @@ const list = document.querySelector("#list");
 button.addEventListener("click", () => {
   if (input.value != "") {
     const li = document.createElement("li");
-    li.innerHTML = input.value;
-
-    //delete button
-
     const deleteButton = document.createElement("button");
+    li.innerHTML = input.value;
     deleteButton.textContent = "❌";
     li.append(deleteButton);
     list.append(li);
