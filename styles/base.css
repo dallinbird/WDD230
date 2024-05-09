@@ -46,6 +46,24 @@ header {
   padding-left: 7%;
 }
 
+#menu {
+  font-size: 1.5rem;
+  border: 0;
+  background: none;
+  color: #000;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+#menu::before {
+  content: "☰";
+}
+
+#menu.open::before {
+  content: "❎";
+}
+
 nav {
   display: block;
   align-items: center;
@@ -86,7 +104,6 @@ a {
 }
 
 main {
-  width: 414px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   justify-content: center;
