@@ -1,4 +1,5 @@
 const input = document.querySelector("#favchap");
+input.focus();
 const button = document.querySelector("button");
 const list = document.querySelector("#list");
 
@@ -21,6 +22,6 @@ button.addEventListener("click", (e) => {
     input.value = "";
   } else {
     alert("Please enter a Book of Mormon Chapter.");
-    input.focus;
+    input.focus();
   }
 });
