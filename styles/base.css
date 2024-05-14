@@ -64,7 +64,7 @@ header {
   content: "❎";
 }
 
-nav {
+.navigation {
   display: block;
   align-items: center;
   justify-content: center;
@@ -91,6 +91,10 @@ nav a:hover {
   background-color: var(--hoverColor);
   box-shadow: 3px 3px 15px var(--hoverColor);
 }
+
+/* .open a {
+  display: block;
+} */
 
 ul {
   display: flex;

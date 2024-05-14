@@ -3,6 +3,14 @@
     display: none; /* hide hamburger button */
   }
 
+  /* .navigation {
+    display: block;
+  }
+
+  .navagation a {
+    display: block;
+  } */
+
   nav ul {
     flex-direction: row;
     justify-content: center;
