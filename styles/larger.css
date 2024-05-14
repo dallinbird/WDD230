@@ -3,20 +3,16 @@
     display: none; /* hide hamburger button */
   }
 
-  /* .navigation {
-    display: block;
+  .navagation a {
+    display: flex;
   }
 
-  .navagation a {
-    display: block;
-  } */
-
-  nav ul {
+  .navigation ul {
     flex-direction: row;
     justify-content: center;
   }
 
-  nav ul li a {
+  .navigation ul li a {
     width: 9rem;
   }
 

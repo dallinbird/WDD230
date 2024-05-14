@@ -65,13 +65,12 @@ header {
 }
 
 .navigation {
-  display: block;
   align-items: center;
   justify-content: center;
   background-color: var(--firstColor);
 }
 
-nav ul {
+.navigation ul {
   display: flex;
   flex-direction: column;
   list-style: none;
@@ -79,22 +78,22 @@ nav ul {
   margin: 0;
 }
 
-nav a {
-  display: block;
+.navigation a {
+  display: none;
   text-decoration: none;
   padding: 0.8rem;
   color: black;
   font-size: 1.5rem;
 }
 
-nav a:hover {
+.navigation a:hover {
   background-color: var(--hoverColor);
   box-shadow: 3px 3px 15px var(--hoverColor);
 }
 
-/* .open a {
+.open a {
   display: block;
-} */
+}
 
 ul {
   display: flex;
