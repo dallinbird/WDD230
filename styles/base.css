@@ -28,6 +28,7 @@ header {
   justify-content: center;
   margin: 0;
   padding: 0;
+  padding-bottom: 20px;
 }
 
 #hero {
@@ -46,14 +47,26 @@ header {
   padding-left: 7%;
 }
 
-#menu {
-  font-size: 1.5rem;
-  border: 0;
-  background: none;
-  color: #000;
+#dark {
   position: absolute;
   top: 1rem;
   right: 1rem;
+  font-size: 3rem;
+  cursor: pointer;
+  font-size: 2rem;
+  background-color: var(--secondColor);
+  border-radius: 20%;
+  border: 0px;
+}
+
+#menu {
+  font-size: 1.5rem;
+  border: 0;
+  background-color: var(--firstColor);
+  color: #000;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #menu::before {
