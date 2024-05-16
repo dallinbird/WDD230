@@ -3,8 +3,8 @@
     display: none; /* hide hamburger button */
   }
 
-  .navagation a {
-    display: flex;
+  .navigation a {
+    display: block;
   }
 
   .navigation ul {
