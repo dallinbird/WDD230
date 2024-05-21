@@ -1,0 +1,39 @@
+@media screen and (min-width: 650px) {
+  #menu {
+    display: none; /* hide hamburger button */
+  }
+
+  .navigation a {
+    display: block;
+  }
+
+  .navigation ul {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .navigation ul li a {
+    width: 9rem;
+  }
+
+  main {
+    max-width: 900px;
+  }
+
+  #news {
+    grid-column: 2/4;
+  }
+  #state {
+    grid-column: 5/7;
+  }
+  #weather {
+    grid-column: 2/4;
+  }
+  #highlights {
+    grid-column: 5/7;
+  }
+
+  footer p {
+    display: inline;
+  }
+}

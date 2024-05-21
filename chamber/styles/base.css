@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuggles&family=Inconsolata&display=swap");
+
+:root {
+  --firstColor: rgb(201, 203, 163);
+  --secondColor: rgb(62, 137, 137);
+  --thirdColor: #8d7471;
+  --hoverColor: rgb(41, 90, 90);
+  --primaryFont: "Inconsolata", sans-serif;
+  --secondaryFont: "#";
+  --titalFont: "Fuggles", sans-serif;
+  --first-font-color: rgb(2, 21, 4);
+}
+
+/* * {
+  border: 2px solid black;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: var(--primary-font);
+}
+
+header {
+  background-color: var(--secondColor);
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  font-family: var(--titalFont);
+  font-size: 60px;
+}
+
+#heroContainer {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#heroImage {
+  border: 2px solid black;
+}
+
+#menu {
+  font-size: 1.5rem;
+  border: 0;
+  background-color: var(--secondColor);
+  color: #000;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#menu::before {
+  content: "☰";
+}
+
+#menu.open::before {
+  content: "❎";
+}
+
+.navigation {
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondColor);
+}
+
+.navigation ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation a {
+  display: none;
+  text-decoration: none;
+  padding: 0.8rem;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.navigation a:hover {
+  background-color: var(--hoverColor);
+  box-shadow: 3px 3px 15px var(--hoverColor);
+}
+
+.open a {
+  display: block;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1rem 1fr 1fr 1rem 1fr 1fr 1rem;
+  justify-content: center;
+  margin: 0px auto;
+  padding-bottom: 200px;
+}
+
+main a {
+  text-decoration: none;
+  /* position: relative;
+  bottom: 20px; */
+  padding: 2px;
+  border: 2px solid var(--secondColor);
+  margin-bottom: 100px;
+}
+
+#mission {
+  grid-column: 2/7;
+  background-color: var(--firstColor);
+  border: 5px solid var(--secondColor);
+  border-radius: 1%;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 5px;
+}
+
+.card {
+  grid-column: 2/7;
+  background-color: var(--firstColor);
+  border: 3px solid var(--secondColor);
+
+  margin: 5px;
+}
+
+.cardTitle {
+  background-color: var(--secondColor);
+  padding: 0;
+  margin: 0;
+}
+
+.cardContent {
+  padding: 2px;
+}
+
+footer {
+  background-color: var(--secondColor);
+  padding-top: 10px;
+  padding-bottom: 5px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

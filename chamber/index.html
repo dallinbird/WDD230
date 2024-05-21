@@ -17,7 +17,7 @@
       property="og:image"
       content="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/311441045_477809637709394_4352165970472206543_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=3hGqwwwLvjwQ7kNvgG0iM7P&_nc_ht=scontent-sea1-1.xx&oh=00_AYDLVodSLdzM1ZiWCO6WBkntaUqoeii8Iq5Ob2i68VjpNQ&oe=66497A00"
     />
-
+    <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/larger.css" />
     <link rel="icon" href="favicon.ico" />
@@ -25,13 +25,19 @@
   <body>
     <header>
       <h1>Lewiston Chamber of Commerce</h1>
-      <div>
-        <img id="heroImage" src="#" alt="Small Town Scape" width="100%" />
+      <div id="heroContainer">
+        <img
+          id="heroImage"
+          src="images/mountains.jpg"
+          alt="Moutain Backdrop"
+          width="100%"
+        />
       </div>
     </header>
+    <button id="menu"></button>
     <nav class="navigation">
       <ul>
-        <li class="home"><a href="#">Home</a></li>
+        <li class="home"><a href="../index.html">Home</a></li>
         <li><a href="#">Directory</a></li>
         <li><a href="#">discover</a></li>
         <li><a href="#">Join</a></li>
@@ -46,14 +52,58 @@
           and campain donations to potential polititons that promise changes
           that benefit the business owners of Lewiston.
         </h2>
+        <a href="#">! JOIN NOW !</a>
       </section>
-      <section class="card">Community News</section>
+      <section id="news" class="card">
+        <h3 class="cardTitle">Community News</h3>
+        <p class="cardContent">
+          Bacon ipsum dolor amet landjaeger andouille chislic sirloin, filet
+          mignon spare ribs prosciutto flank capicola. Fatback landjaeger short
+          loin meatball shank ham hock. Biltong chuck cupim ground round. Flank
+          chislic shankle picanha kielbasa. Picanha turkey brisket meatball,
+          t-bone strip steak pancetta ribeye. Shankle short loin shoulder
+          capicola andouille. Cow brisket swine picanha meatball short loin pork
+          belly strip steak drumstick jerky meatloaf tail pork loin ham hock.
+        </p>
+        <a href="#">Read More</a>
+      </section>
 
-      <section class="card">State of the Legislature</section>
+      <section id="state" class="card">
+        <h3 class="cardTitle">State of the Legislature</h3>
+        <p class="cardContent">
+          Bacon ipsum dolor amet pastrami frankfurter prosciutto flank, shankle
+          buffalo short ribs corned beef jerky kevin kielbasa. Beef ribs ham
+          hock fatback picanha alcatra. Shoulder chuck shank porchetta bacon.
+          Bresaola filet mignon burgdoggen beef tongue prosciutto t-bone. Ham
+          prosciutto kevin drumstick, turkey beef chislic pork belly swine.
+        </p>
+        <a href="#">Read More</a>
+      </section>
 
-      <section class="card">Weather</section>
+      <section id="weather" class="card">
+        <h3 class="cardTitle">Weather</h3>
+        <h2>Information</h2>
+        <div>Rexburg, Idaho</div>
+        <div>Monday</div>
+        <div>Rainy with a chance of Rain</div>
+        <div>38 degress outside, feels like -20 degress</div>
+        <div>page visits: <span id="pageVisits"></span></div>
+      </section>
+        <p class="cardContent"></p>
+      </section>
 
-      <section class="card">Community Highlights</section>
+      <section id="highlights" class="card">
+        <h3 class="cardTitle">Community Highlights</h3>
+        <p class="cardContent">Bacon ipsum dolor amet shankle capicola beef 
+          pastrami pancetta, pig salami short loin meatloaf jowl ham hock shank 
+          kielbasa fatback. Pastrami capicola porchetta meatball cupim brisket 
+          ribeye prosciutto ball tip pork loin swine biltong venison sirloin. 
+          Drumstick andouille corned beef burgdoggen t-bone. Pork chop chislic 
+          kevin, tongue landjaeger filet mignon porchetta ground round. Hamburger 
+          leberkas ribeye, beef landjaeger kielbasa beef ribs prosciutto meatball 
+          chuck sausage pork belly.</p>
+        <a href="#">Read More</a>
+      </section>
     </main>
     <footer>
       <section id="contact">
@@ -69,5 +119,6 @@
     </footer>
 
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburgerMain.js"></script>
   </body>
 </html>
