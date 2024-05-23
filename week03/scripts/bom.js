@@ -1,15 +1,8 @@
 const input = document.querySelector("#favchap");
-input.focus();
 const button = document.querySelector("button");
 const list = document.querySelector("#list");
 
-let chapterArray = getChapterList() || [];
-
-function getChapterList() {
-  chapterArray.forEach((chapter) => {
-    displayList(chapter);
-  });
-}
+let chaptersArray = getChapterList() || [];
 
 button.addEventListener("click", (e) => {
   e.preventDefault();
@@ -18,9 +11,6 @@ button.addEventListener("click", (e) => {
     chaptersArray.push(input.value);
     setChapterList();
     input.value = "";
-    input.focus();
-  } else {
-    alert("Please enter a Book of Mormon Chapter.");
     input.focus();
   }
 });
@@ -42,15 +32,15 @@ function displayList(item) {
 }
 
 function setChapterList() {
-  localStorage.setItem("myFavBOMlist", JSON.stringify(chapterArray));
+  localStorage.setItem("myFavBOMlist", JSON.stringify(chaptersArray));
 }
 
 function getChapterList() {
-  return JSON.parse(localStorage.getItem(myFavBOMlist));
+  return JSON.parse(localStorage.getItem("myFavBOMlist"));
 }
 
 function deleteChapter(chapter) {
   chapter = chapter.slice(0, chapter.length - 1);
-  chaptersArray = chapterArray.filter((item) => item !== chapter);
+  chaptersArray = chaptersArray.filter((item) => item !== chapter);
   setChapterList();
 }
