@@ -52,7 +52,12 @@
   <body>
     <header>
       <div id="hero">
-        <img id="heroImage" src="images/myImage.webp" alt="personalPortrate" />
+        <img
+          id="heroImage"
+          src="images/myImage.webp"
+          alt="personalPortrate"
+          loading="lazy"
+        />
       </div>
       <span id="nameSpan">Dallin Bird</span>
     </header>
@@ -73,7 +78,11 @@
             srcset="images/temple-large.webp"
             media="(min-width: 650px)"
           />
-          <img src="images/temple-small.webp" alt="Seattle Temple" />
+          <img
+            src="images/temple-small.webp"
+            alt="Seattle Temple"
+            loading="lazy"
+          />
         </picture>
         <div id="temple-name">
           <p>Seattle Temple</p>
@@ -126,7 +135,7 @@
         <h2>Information</h2>
         <div>Rexburg, Idaho</div>
         <div>Weather information</div>
-        <div>page visits: <span id="pageVisits"></span></div>
+        <div><span>page visits: </span><span id="pageVisits"></span></div>
       </section>
       <iframe
         class="map"
@@ -152,5 +161,6 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburgerMain.js"></script>
     <script src="scripts/darkMode.js"></script>
+    <script src="scripts/visitCounter.js"></script>
   </body>
 </html>
