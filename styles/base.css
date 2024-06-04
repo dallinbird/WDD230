@@ -136,7 +136,7 @@ main {
 #temple-name {
   position: absolute;
   top: 35%;
-  margin-left: 13%;
+  margin-left: 10%;
   background: radial-gradient(#fff, #8e460a);
   border: 1px solid rgba(0, 0, 0, 0.75);
   padding: 0.75rem;
