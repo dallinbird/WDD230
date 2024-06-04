@@ -7,6 +7,7 @@ if (visitsNum !== 0) {
 } else {
   visitsDisplay.textContent = `Hello from the other side!`;
 }
+
 visitsNum++;
 
 localStorage.setItem("numVisits-ls", visitsNum);
