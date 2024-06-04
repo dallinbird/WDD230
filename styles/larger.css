@@ -23,6 +23,16 @@
     max-width: 900px;
     margin: 0 auto;
   }
+
+  #temple-image {
+    max-width: 900px;
+    height: auto;
+  }
+
+  #temple-name p {
+    font-size: 2rem;
+  }
+
   h1 {
     grid-column: 1/6;
   }
@@ -34,6 +44,11 @@
 
   #information {
     grid-column: 4/6;
+  }
+
+  footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   footer p {

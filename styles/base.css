@@ -37,6 +37,7 @@ header {
 #heroImage {
   border-radius: 60%;
   box-shadow: 20px 20px rgb(62, 106, 138);
+  width: 100%;
 }
 
 #nameSpan {
@@ -119,10 +120,36 @@ a {
 
 main {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 15px 1fr 1fr 1fr 15px;
   justify-content: center;
   margin: 0px auto;
   padding-bottom: 100px;
+}
+
+#temple-image {
+  width: 100%;
+  height: auto;
+  background-color: #000;
+  grid-column: 1/6;
+}
+
+#temple-name {
+  position: absolute;
+  top: 25%;
+  margin-left: 13%;
+  background: radial-gradient(#fff, #8e460a);
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  padding: 0.75rem;
+  box-shadow: 0 0 3rem #fff;
+  opacity: 0.75;
+}
+
+#temple-name p {
+  margin: 0;
+  padding: 0.25rem;
+  font-weight: 1000;
+  font-size: 1rem;
+  font-family: var(--primary-font);
 }
 
 h1 {
@@ -156,6 +183,15 @@ h2 {
 .card li {
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  grid-column: 2/5;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
 }
 
 #information p {
