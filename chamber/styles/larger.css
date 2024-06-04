@@ -16,7 +16,7 @@
     width: 9rem;
   }
 
-  main {
+  #indexMain {
     max-width: 900px;
   }
 
@@ -32,8 +32,25 @@
   #highlights {
     grid-column: 5/7;
   }
+  footer {
+    position: fixed;
+  }
 
   footer p {
     display: inline;
+  }
+
+  /* discover page CSS*/
+
+  #discoveryLeft {
+    grid-column: 2/3;
+  }
+  #discoveryRight {
+    grid-column: 3/5;
+    margin-bottom: 150px;
+  }
+
+  #discoveryRight img:hover {
+    box-shadow: 0 0 50px var(--secondColor);
   }
 }

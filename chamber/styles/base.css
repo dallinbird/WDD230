@@ -10,7 +10,7 @@
 }
 
 /* * {
-  border: 2px solid black;
+  border: 1px solid black;
 } */
 
 body {
@@ -38,6 +38,7 @@ h1 {
 
 #heroImage {
   border: 2px solid black;
+  max-width: 380px;
 }
 
 #menu {
@@ -89,7 +90,7 @@ h1 {
   display: block;
 }
 
-main {
+#indexMain {
   display: grid;
   grid-template-columns: 1rem 1fr 1fr 1rem 1fr 1fr 1rem;
   justify-content: center;
@@ -97,7 +98,9 @@ main {
   padding-bottom: 200px;
 }
 
-main a {
+/* #indexMain */
+
+#indexMain a {
   text-decoration: none;
   /* position: relative;
   bottom: 20px; */
@@ -138,7 +141,55 @@ footer {
   background-color: var(--secondColor);
   padding-top: 10px;
   padding-bottom: 5px;
-  position: fixed;
   width: 100%;
   bottom: 0;
+}
+
+/* discover page CSS*/
+
+#discoverMain {
+  display: grid;
+  grid-template-columns: 15px 1.5fr 1fr 1fr 15px;
+  column-gap: 0px;
+}
+
+#visitsCounter {
+  display: inline;
+  grid-column: 1/6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: var(--firstColor);
+  border: 3px solid var(--secondColor);
+}
+
+#visitsCounter span {
+  font-family: var(--primary-font);
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.discoveryContent {
+  grid-column: 2/5;
+}
+
+.contentCard {
+  background: var(--firstColor);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 3px solid var(--secondColor);
+}
+
+.contentCard p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#discoveryRight img {
+  width: 90%;
+  max-width: 600px;
+  min-width: 200px;
+  margin: 20px;
+  box-shadow: 5px 5px 20px var(--secondColor);
 }
