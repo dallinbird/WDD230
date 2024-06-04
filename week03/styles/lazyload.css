@@ -11,6 +11,7 @@ main {
 
 img {
   width: 100%;
+  background: #000;
   animation: fade 15s;
 }
 
