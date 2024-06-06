@@ -1,0 +1,66 @@
+:root {
+  --linkColor: navy;
+  --linkHover: purple;
+  --borderPreSet: 1px solid black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  margin: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  width: 760px;
+  background-color: #eee;
+}
+
+/* if the width is set to 500px then 
+the last-child element will affect 
+the whole bottom row*/
+
+.datatable {
+  width: 450px;
+  margin-top: 2rem;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  align-items: center;
+  text-align: center;
+}
+
+.col {
+  padding: 10px;
+  border-top: var(--borderPreSet);
+  border-left: var(--borderPreSet);
+}
+
+.col:nth-child(5) {
+  border-right: var(--borderPreSet);
+}
+
+.row:last-child {
+  border-bottom: var(--borderPreSet);
+  background-color: grey;
+}
+
+a:active,
+a:link,
+a:visited {
+  color: var(--linkColor);
+}
+
+a:hover {
+  color: var(--linkHover);
+}
