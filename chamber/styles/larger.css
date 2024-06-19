@@ -53,4 +53,22 @@
   #discoveryRight img:hover {
     box-shadow: 0 0 50px var(--secondColor);
   }
+
+  /* Join Page*/
+
+  #joinMain {
+    grid-template-columns: 15px 1fr 15px 1fr 15px;
+    margin-bottom: 150px;
+    max-width: 900px;
+  }
+
+  #benfits {
+    grid-column: 4/5;
+    max-width: 400px;
+    margin-top: 15px;
+  }
+
+  #thankYou {
+    grid-column: 2/5;
+  }
 }

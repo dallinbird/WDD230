@@ -40,9 +40,9 @@
     <button id="menu"></button>
     <nav class="navigation">
       <ul>
-        <li class="home"><a href="../index.html">Home</a></li>
+        <li class="home"><a href="index.html">Home</a></li>
         <li><a href="discover.html">Discovery</a></li>
-        <li><a href="#">Join</a></li>
+        <li><a href="join.html">Join</a></li>
         <li><a href="#">Directory</a></li>
       </ul>
     </nav>
@@ -62,7 +62,7 @@
             required
             name="position"
             id="position"
-            pattern="[A-Za-z0-9 ] {7,20}"
+            pattern="[A-Za-z0-9 ]{7}"
           />
           <label for="email">Email</label>
           <input
@@ -122,12 +122,62 @@
               Gold Membership
             </label>
           </fieldset>
+          <div id="submitBox">
           <input type="submit" name="submit" id="submitJoin">
+        </div>
         </form>
       </section>
 
       <section id="benfits" class="joinCard">
-        
+
+        <table>
+          <caption>
+            Table 1: Membership Benfits Comparison
+          </caption>
+          <thead>
+            <tr>
+              <th colspan="5" scope="colgroup">Lewiston Chamber Of Commerce Membership Benefits</th>
+            </tr>
+            <tr>
+              <th scope="col" class="highlight">Benefits</th>
+              <th scope="col">NP</th>
+              <th scope="col">Bronze</th>
+              <th scope="col">Silver</th>
+              <th scope="col">Gold</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Advertising</td>
+              <td>✔️</td>
+              <td>✔️</td>
+              <td>✔️</td>
+              <td>✔️</td>
+            </tr>
+            <tr>
+              <td>Training</td>
+              <td>❌</td>
+              <td>✔️</td>
+              <td>✔️</td>
+              <td>✔️</td>
+            </tr>
+            <tr>
+              <td>Event Discounts</td>
+              <td>❌</td>
+              <td>❌</td>
+              <td>✔️</td>
+              <td>✔️</td>
+            </tr>
+            <tr>
+              <td>Trade Secrets</td>
+              <td>❌</td>
+              <td>❌</td>
+              <td>❌</td>
+              <td>✔️</td>
+            </tr>
+          </tbody>
+        </table>
+
       </section>
     </main>
     <footer>

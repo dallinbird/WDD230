@@ -143,6 +143,7 @@ footer {
   padding-bottom: 5px;
   width: 100%;
   bottom: 0;
+  font-weight: normal;
 }
 
 /* #discoverMain*/
@@ -205,6 +206,11 @@ footer {
 
 #formContainer {
   grid-column: 2/3;
+  padding: 10px;
+  margin-top: 20px;
+  border: 3px solid var(--secondColor);
+  border-radius: 20px;
+  background-color: var(--firstColor);
 }
 
 #joinForm {
@@ -212,10 +218,108 @@ footer {
   text-align: left;
   display: flex;
   flex-direction: column;
+  font-family: var(--primaryFont);
+  font-weight: bold;
+}
+
+label {
+  margin-top: 10px;
 }
 
 fieldset {
   display: flex;
   flex-direction: column;
   text-align: left;
+  font-family: var(--primaryFont);
+  font-weight: bold;
+  margin-bottom: 12px;
+  border: 2px solid var(--secondColor);
+  border-radius: 10px;
+}
+
+#submitJoin {
+  padding: 10px;
+  font-family: var(--primaryFont);
+  font-weight: bold;
+  border: 3px solid var(--secondColor);
+  border-radius: 5%;
+}
+
+/* Benfits Table*/
+
+#benfits {
+  grid-column: 2/3;
+  max-width: 400px;
+}
+
+table {
+  margin: 10px auto;
+  border-collapse: collapse;
+}
+
+th {
+  width: 300px;
+}
+
+caption {
+  padding: 5px;
+  caption-side: bottom;
+  color: var(--hoverColor);
+  font-size: 0.85rem;
+  margin-bottom: 20px;
+}
+
+tr:first-child th,
+.highlight {
+  background-color: var(--secondColor);
+  color: var(--forelight);
+}
+
+.highlight {
+  border-top: 1px solid var(--secondColor);
+}
+
+th,
+td {
+  padding: 10px 10px;
+  /* border: 1px solid var(--borderlight); */
+}
+
+tbody td {
+  border: 1px solid var(--secondColor);
+}
+
+th {
+  background-color: var(--firstColor);
+  font-size: larger;
+  color: var(--zebra);
+}
+
+th:last-child {
+  border-right: 1px solid var(--secondColor);
+}
+
+td {
+  text-align: center;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: var(--zebra);
+}
+
+/* Thank you page*/
+
+#thankYou {
+  grid-column: 2/3;
+  font-family: var(--titalFont);
+  font-size: 5rem;
+  max-width: 400px;
+  font-weight: bold;
+  background-color: var(--firstColor);
+  padding: 15px;
+  border: 3px solid var(--secondColor);
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
