@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dallin_Bird-WDD_Chamber of Commerce_SITE_WDD_230</title>
+    <meta
+      name="description"
+      content="Chamber Site - fictitious chamber of commerce site for WDD 230 at BYU Idaho"
+    />
+    <meta name="author" content="Dallin Bird" />
+
+    <meta property="og:title" content="Dallin Birds Mistakes" />
+    <meta property="og:type" content="website" />
+
+    <meta property="og:url" content="https://www.facebook.com/dallin.bird.3" />
+    <!-- <meta property="og:url" content="http://www.dallinbirdPortfolio.com" /> -->
+    <meta
+      property="og:image"
+      content="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/311441045_477809637709394_4352165970472206543_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=3hGqwwwLvjwQ7kNvgG0iM7P&_nc_ht=scontent-sea1-1.xx&oh=00_AYDLVodSLdzM1ZiWCO6WBkntaUqoeii8Iq5Ob2i68VjpNQ&oe=66497A00"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <h1>Lewiston Chamber of Commerce</h1>
+      <div id="heroContainer">
+        <img
+          id="heroImage"
+          src="images/mountains.jpg"
+          alt="Moutain Backdrop"
+          width="414"
+          height="207"
+        />
+      </div>
+    </header>
+    <button id="menu"></button>
+    <nav class="navigation">
+      <ul>
+        <li class="home"><a href="../index.html">Home</a></li>
+        <li><a href="discover.html">Discovery</a></li>
+        <li><a href="#">Join</a></li>
+        <li><a href="#">Directory</a></li>
+      </ul>
+    </nav>
+
+    <main id="joinMain">
+      <section id="formContainer" class="joinCard">
+        <fieldset>
+          <legend>Membership Application</legend>
+        <form method="get" action="thankyou.html" id="joinForm">
+          <label for="firstName">First Name</label>
+          <input type="text" required name="firstName" id="firstName" />
+          <label for="lastName">Last Name</label>
+          <input type="text" required name="lastName" id="lastName" />
+          <label for="position">Company Position</label>
+          <input
+            type="text"
+            required
+            name="position"
+            id="position"
+            pattern="[A-Za-z0-9 ] {7,20}"
+          />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="example@email.com"
+          />
+          <label for="phone">Phone Number</label>
+          <input type="telephone" required name="phone" id="phone" placeholder="(111)-222-3333"/>
+
+          <label for="companyName">Company Name</label>
+          <input type="text" required name="companyName" id="companyName" />
+
+          <label for="description">Company Description</label>
+          <input type="area" name="description" id="description" />
+          <input type="hidden" name="timestamp" id="timestamp" value="">
+        </fieldset>
+
+          <fieldset  required>
+            <legend>Membership Level</legend>
+            <label class="membership" for="npMember">
+              <input
+                type="radio"
+                id="npMember"
+                name="memberLevel"
+                value="npMember"
+              />
+              NP Membership (non profit)
+            </label>
+            <label class="membership" for="bronzeMember">
+              <input
+                type="radio"
+                id="bronzeMember"
+                name="memberLevel"
+                value="bronzeMember"
+              />
+              Bronze Membership
+            </label>
+            <label class="membership" for="silverMember">
+              <input
+                type="radio"
+                id="silverMember"
+                name="memberLevel"
+                value="silverMember"
+              />
+              Silver Membership
+            </label>
+            <label class="membership" for="goldMember">
+              <input
+                type="radio"
+                id="goldMember"
+                name="memberLevel"
+                value="goldMember"
+              />
+              Gold Membership
+            </label>
+          </fieldset>
+          <input type="submit" name="submit" id="submitJoin">
+        </form>
+      </section>
+
+      <section id="benfits" class="joinCard">
+        
+      </section>
+    </main>
+    <footer>
+      <section id="contact">
+        <h4>Contact info: Phone: (000)-000-0000 | Email: info@LCC.net</h4>
+      </section>
+      <p>
+        <span id="copyright"></span>
+        | Dallin Bird, USA Idaho |
+      </p>
+      <p id="lastModified">
+        <span id="lastMod"></span>
+      </p>
+    </footer>
+
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburgerMain.js"></script>
+  </body>
+</html>

@@ -193,3 +193,29 @@ footer {
   margin: 20px;
   box-shadow: 5px 5px 20px var(--secondColor);
 }
+
+/*joinMain*/
+
+#joinMain {
+  display: grid;
+  grid-template-columns: 15px 1fr 15px;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+#formContainer {
+  grid-column: 2/3;
+}
+
+#joinForm {
+  width: 300px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
