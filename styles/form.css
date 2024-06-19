@@ -1,0 +1,43 @@
+#formContainer {
+  grid-column: 3/4;
+}
+
+form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid var(--secondColor);
+  border-radius: 5%;
+}
+
+input {
+  background-color: rgb(208, 235, 249);
+}
+
+div {
+  margin: 1em;
+}
+
+label {
+  display: block;
+}
+
+#formMessage {
+  visibility: hidden;
+}
+
+#ratingBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px;
+}
+
+#formThanks {
+  grid-column: 3/4;
+  font-family: var(--secondary-font);
+  font-size: 100px;
+  border: 3px solid var(--secondColor);
+  border-radius: 5%;
+  padding: 2rem;
+}

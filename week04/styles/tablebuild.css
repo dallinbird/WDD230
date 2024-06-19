@@ -33,9 +33,17 @@ tr:first-child th,
   color: var(--forelight);
 }
 
+.highlight {
+  border-top: 1px solid black;
+}
+
 th,
 td {
   padding: 7px 15px;
+  /* border: 1px solid var(--borderlight); */
+}
+
+tbody td {
   border: 1px solid var(--borderlight);
 }
 
