@@ -1,0 +1,69 @@
+{
+    "members": [
+      {
+        "name": "Company A",
+        "address": "123 Main St, City, Country",
+        "phone": "+1-123-456-7890",
+        "image": "https://assets.ldscdn.org/50/07/5007990b50105c9234b5608dbe7137e09ab201c9/spokane_washington_temple_lds.jpeg",
+        "website": "http://www.companyA.com",
+        "membership_level": "Gold"
+      },
+      {
+        "name": "Company B",
+        "address": "456 Elm St, City, Country",
+        "phone": "+1-987-654-3210",
+        "image": "https://assets.ldscdn.org/c8/b5/c8b5e860a7edbbef90734c83be366e8d359d2c0b/payson_utah_temple.jpg",
+        "website": "http://www.companyB.com",
+        "membership_level": "Silver"
+      },
+      {
+        "name": "Company C",
+        "address": "789 Oak St, City, Country",
+        "phone": "+1-555-123-4567",
+        "image": "https://assets.ldscdn.org/c6/07/c6077e1778bfdf5a91569ab3acf57e9c31a7175f/boise_idaho_temple_sunshine.jpeg",
+        "website": "http://www.companyC.com",
+        "membership_level": "Bronze"
+      },
+      {
+        "name": "Company D",
+        "address": "321 Pine St, City, Country",
+        "phone": "+1-222-333-4444",
+        "image": "https://assets.ldscdn.org/83/16/831688ef82fcab202e941ed8fd5869b28f9b5db11086883/oakland_california_temple_exterior.jpeg",
+        "website": "http://www.companyD.com",
+        "membership_level": "Gold"
+      },
+      {
+        "name": "Company E",
+        "address": "654 Cedar St, City, Country",
+        "phone": "+1-777-888-9999",
+        "image": "https://assets.ldscdn.org/f3/85/f38513cc90a30a2095d0891fb1b1a9419fcfeba5/manti_temple_lds.jpeg",
+        "website": "http://www.companyE.com",
+        "membership_level": "Silver"
+      },
+      {
+        "name": "Company F",
+        "address": "987 Maple St, City, Country",
+        "phone": "+1-444-555-6666",
+        "image": "https://assets.ldscdn.org/72/14/7214efb047426ffe6b581906fa0092a624ebc637/seattle_washington_temple_exterior.jpg",
+        "website": "http://www.companyF.com",
+        "membership_level": "Bronze"
+      },
+      {
+        "name": "Company G",
+        "address": "159 Walnut St, City, Country",
+        "phone": "+1-666-777-8888",
+        "image": "https://assets.ldscdn.org/93/92/9392e6adee3d1aa025548de1a852a27ad8ea40f4/brigham_city_utah_temple_dawn.jpeg",
+        "website": "http://www.companyG.com",
+        "membership_level": "Non-profit"
+      },
+      {
+        "name": "Company H",
+        "address": "246 Pineapple St, City, Country",
+        "phone": "+1-333-444-5555",
+        "image": "https://assets.ldscdn.org/0a/2a/0a2ad5586a3797ed7c05557edc1bfe789fd927ec/logan_temple_lds.jpg",
+        "website": "http://www.companyH.com",
+        "membership_level": "Non-profit"
+      }
+    ]
+  }
+  

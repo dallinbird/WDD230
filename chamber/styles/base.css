@@ -323,3 +323,54 @@ tbody tr:nth-child(even) {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+/* Directory page ************************ */
+
+#indexDirectory h2 {
+  color: navy;
+  margin: 0 0 1rem 0;
+  border-bottom: 1px solid #bbb;
+}
+
+#indexDirectory h3 {
+  margin: 0;
+}
+
+#indexDirectory h4 {
+  color: #333;
+  margin: 7px 0 5px 0;
+}
+
+#indexDirectory p {
+  margin: 0;
+}
+
+#indexDirectory main {
+  margin-left: 2rem;
+}
+
+#indexDirectory {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+#indexDirectory section {
+  margin: 0.25rem;
+  padding: 0.35rem;
+  background-color: #eee;
+  border: 1px solid #bbb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#indexDirectory section > p {
+  min-height: 30px;
+}
+
+#indexDirectory img {
+  width: auto;
+  max-width: 325px;
+  box-shadow: 0 0 30px #777;
+  height: 200px;
+  border: 1px solid #333;
+}
