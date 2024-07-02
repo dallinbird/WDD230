@@ -1,10 +1,10 @@
 const baseURL = "https://yourgithubusername.github.io/wdd230/";
-const linksURL = "https://yourgithubusername.github.io/wdd230/data/links.json";
+const linksURL = "https://dallinbird.github.io/wdd230/data/links.json";
 const testURL = "http://127.0.0.1:5500/data/links.json";
 const weeksHTML = document.querySelector("#weeks");
 
 async function getLinks() {
-  const response = await fetch(testURL);
+  const response = await fetch(linksURL);
   const data = await response.json();
   console.log(data); // temporary testing of data retreival
   displayLinks(data.weeks); // note that we reference the prophets array of the JSON data object, not just the object
