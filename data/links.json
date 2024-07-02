@@ -1,0 +1,123 @@
+{
+    "weeks": [
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                    "url": "week01/holygrail.html",
+                    "title": "HG Layout"
+                },
+                {
+                    "url": "week01/media-query.html",
+                    "title": "mQueries"
+                },
+                {
+                    "url": "week01/javascript.html",
+                    "title": "JS applied"
+                }
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": [
+                {
+                    "url": "week02/design.html",
+                    "title": "Design"
+                },
+                {
+                    "url": "week02/bom.html",
+                    "title": "Bom"
+                },
+                {
+                    "url": "week02/hamburger.html",
+                    "title": "hamburger"
+                },
+                {
+                    "url": "week02/darkMode.html",
+                    "title": "Dark Mode"
+                }
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links": [
+                {
+                    "url": "week03/images/landscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": "week03/lazyload.html",
+                    "title": "Lazy Load"
+                },
+                {
+                    "url": "week03/bom.html",
+                    "title": "Bom2-LS"
+                },
+                {
+                    "url": "week03/responsive-images.html",
+                    "title": "Responsive Images"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                {
+                    "url": "week04/css-pseudo-classes.html",
+                    "title": "Psudo Classes"
+                },
+                {
+                    "url": "week04/images/CombinatorActivitesCompletedProof.png",
+                    "title": "Combinators,"
+                },
+                {
+                    "url": "week04/formPractice.html",
+                    "title": "Form Practice"
+                },
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "Tables"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url": "week05/pseudo-elements.html",
+                    "title": "Pseudo Elements"
+                },
+                {
+                    "url": "week05/new-ward-members.json",
+                    "title": "Json"
+                },
+                {
+                    "url": "week05/prophets.html",
+                    "title": "Prophets"
+                },
+                {
+                    "url": "week05/weather.html",
+                    "title": "Weather API"
+                }
+            ]
+        },
+        {
+            "week": "Week 6",
+            "links": [
+                {
+                    "url": "#",
+                    "title": "place holder"
+                }
+            ]
+        },
+        {
+            "week": "Week 7",
+            "links": [
+                {
+                    "url": "#",
+                    "title": "place holder"
+                }
+            ]
+        }
+    ]
+}

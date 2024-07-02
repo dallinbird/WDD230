@@ -1,0 +1,39 @@
+{
+    "ldsWard": "Lewiston 25th Ward",
+    "location": "Lewiston",
+    "formed": 2000,
+    "bishop": "Stone",
+    "active": true,
+    "members": [
+      {
+        "family": "Johnson",
+        "familySize": 3,
+        "familyMembers": [
+          "Jorge",
+          "Cristy",
+          "Zackery"
+        ]
+      },
+     
+      {
+        "family": "Richards",
+        "familySize": 4,
+        "familyMembers": [
+          "Richard",
+          "Mekenzy",
+          "Misty",
+          "Bob"
+        ]
+      },
+
+      {
+        "family": "Villavicencios",
+        "familySize": 2,
+        "familyMembers": [
+          "Juan",
+          "Juana"
+        ]
+      }
+
+    ]
+  }
