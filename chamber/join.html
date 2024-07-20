@@ -43,7 +43,7 @@
         <li class="home"><a href="index.html">Home</a></li>
         <li><a href="discover.html">Discovery</a></li>
         <li><a href="join.html">Join</a></li>
-        <li><a href="#">Directory</a></li>
+        <li><a href="directory.html">Directory</a></li>
       </ul>
     </nav>
 
@@ -62,7 +62,8 @@
             required
             name="position"
             id="position"
-            pattern="[A-Za-z0-9 ]{7}"
+            pattern="[A-Za-z0-9 ]{7,}"
+            placeholder="At least 7 characters (A-Za-z0-9)"
           />
           <label for="email">Email</label>
           <input

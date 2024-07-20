@@ -222,6 +222,11 @@ footer {
   padding-right: 20px;
 }
 
+.contentCard img {
+  max-width: 300px;
+  max-height: 100px;
+}
+
 #discoveryRight img {
   width: 90%;
   max-width: 600px;
