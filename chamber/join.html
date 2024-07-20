@@ -49,9 +49,9 @@
 
     <main id="joinMain">
       <section id="formContainer" class="joinCard">
+        <form method="get" action="thankyou.html" id="joinForm">
         <fieldset>
           <legend>Membership Application</legend>
-        <form method="get" action="thankyou.html" id="joinForm">
           <label for="firstName">First Name</label>
           <input type="text" required name="firstName" id="firstName" />
           <label for="lastName">Last Name</label>
@@ -74,17 +74,18 @@
             placeholder="example@email.com"
           />
           <label for="phone">Phone Number</label>
-          <input type="telephone" required name="phone" id="phone" placeholder="(111)-222-3333"/>
+          <input type="tel" required name="phone" id="phone" placeholder="(111)-222-3333"/>
 
           <label for="companyName">Company Name</label>
           <input type="text" required name="companyName" id="companyName" />
 
           <label for="description">Company Description</label>
-          <input type="area" name="description" id="description" />
+          <input name="description" id="description" />
           <input type="hidden" name="timestamp" id="timestamp" value="">
+        
         </fieldset>
 
-          <fieldset  required>
+          <fieldset>
             <legend>Membership Level</legend>
             <label class="membership" for="npMember">
               <input

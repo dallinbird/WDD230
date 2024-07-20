@@ -1,5 +1,5 @@
 :root {
-  --firstColor: rgb(201, 203, 163);
+  --firstColor: rgb(202, 204, 173);
   --secondColor: rgb(62, 137, 137);
   --thirdColor: #8d7471;
   --hoverColor: rgb(41, 90, 90);
@@ -18,6 +18,7 @@ body {
   padding: 0;
   text-align: center;
   font-family: var(--primary-font);
+  font-size: 1.1rem;
 }
 
 header {
