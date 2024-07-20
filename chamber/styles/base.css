@@ -109,6 +109,20 @@ h1 {
   margin-bottom: 100px;
 }
 
+#banner.show{
+  grid-column: 2/7;
+  background-color: var(--firstColor);
+  border: 5px solid var(--secondColor);
+  border-radius: 1%;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 5px;
+}
+
+#banner.hidden{
+  display: none;
+}
+
 #mission {
   grid-column: 2/7;
   background-color: var(--firstColor);
@@ -135,6 +149,27 @@ h1 {
 
 .cardContent {
   padding: 2px;
+}
+
+#spotlight img{
+  width: 300px;
+}
+
+#weatherDays p{
+  display: inline;
+}
+
+#weatherForcast {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#weatherForcast span{
+  border: 1px var(--secondColor) solid;
+  border-radius: 5px;
+  margin: 8px;
+  padding-bottom: 10px;
 }
 
 footer {
@@ -326,35 +361,37 @@ tbody tr:nth-child(even) {
 
 /* Directory page ************************ */
 
+/**************************Grid Section*****************************/
+
+.displayMenu {
+	
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 1rem;
+	background-color: var(--secondColor);
+	text-align: center;
+}
+
+.displayMenu button {
+	padding: 1rem;
+	font-weight: 700;
+}
+
 #indexDirectory h2 {
   color: navy;
   margin: 0 0 1rem 0;
   border-bottom: 1px solid #bbb;
 }
 
-#indexDirectory h3 {
-  margin: 0;
-}
-
-#indexDirectory h4 {
-  color: #333;
-  margin: 7px 0 5px 0;
-}
-
 #indexDirectory p {
   margin: 0;
 }
 
-#indexDirectory main {
-  margin-left: 2rem;
-}
-
-#indexDirectory {
+#members.contactGrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
-#indexDirectory section {
+.contactGrid article {
   margin: 0.25rem;
   padding: 0.35rem;
   background-color: #eee;
@@ -363,14 +400,55 @@ tbody tr:nth-child(even) {
   flex-direction: column;
   align-items: center;
 }
-#indexDirectory section > p {
+.contactGrid article > p, a {
   min-height: 30px;
 }
 
-#indexDirectory img {
+.contactGrid img {
   width: auto;
   max-width: 325px;
   box-shadow: 0 0 30px #777;
   height: 200px;
   border: 1px solid #333;
+}
+
+#spacerBox {
+  height: 200px;
+}
+
+/**************************List Section*****************************/
+
+#members.contactList {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  max-width: 800px;
+  align-self: center;
+}
+
+.contactList {
+  width: 700;
+}
+
+.contactList article {
+  margin: 0.25rem;
+  padding: 0.35rem;
+  background-color: #eee;
+  border: 1px solid #bbb;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contactList article > p, a {
+  min-height: 30px;
+  margin-right: 10px;
+}
+
+.contactList img {
+  width: auto;
+  max-width: 65px;
+  box-shadow: 0 0 30px #777;
+  height: 40px;
+  border: 1px solid #333;
+  display: none;
 }

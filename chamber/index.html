@@ -26,6 +26,7 @@
   </head>
   <body>
     <header>
+     
       <h1>Lewiston Chamber of Commerce</h1>
       <div id="heroContainer">
         <img
@@ -48,6 +49,12 @@
     </nav>
 
     <main id="indexMain">
+      <div id="banner" class="hidden">
+        <p>
+          Please Join us for a Meet and Greet with the Chamber of Commerce this Wednesday at 7:00pm 
+          <button id="closer">❌</button>
+        </p>        
+      </div>
       <section id="mission">
         <h2>
           The lewiston Chamber of Commerce advocates the intrest of businesses
@@ -58,17 +65,8 @@
         <a href="#">! JOIN NOW !</a>
       </section>
       <section id="news" class="card">
-        <h3 class="cardTitle">Community News</h3>
-        <p class="cardContent">
-          Bacon ipsum dolor amet landjaeger andouille chislic sirloin, filet
-          mignon spare ribs prosciutto flank capicola. Fatback landjaeger short
-          loin meatball shank ham hock. Biltong chuck cupim ground round. Flank
-          chislic shankle picanha kielbasa. Picanha turkey brisket meatball,
-          t-bone strip steak pancetta ribeye. Shankle short loin shoulder
-          capicola andouille. Cow brisket swine picanha meatball short loin pork
-          belly strip steak drumstick jerky meatloaf tail pork loin ham hock.
-        </p>
-        <a href="#">Read More</a>
+        <h3 class="cardTitle">Community SpotLight</h3>
+        <div id="spotlight"></div>
       </section>
 
       <section id="state" class="card">
@@ -85,12 +83,30 @@
 
       <section id="weather" class="card">
         <h3 class="cardTitle">Weather</h3>
-        <h2>Information</h2>
-        <div>Rexburg, Idaho</div>
-        <div>Monday</div>
-        <div>Rainy with a chance of Rain</div>
-        <div>38 degress outside, feels like -20 degress</div>
-        <div>page visits: <span id="pageVisits"></span></div>
+        <p>
+          Lewiston Weather:
+          <!-- <P> Today: <span id="current-temp"></span><img id="weather-icon" src="" alt="" />
+            <figcaption></figcaption>
+          </P> -->
+          <section>
+          <div id="weatherDays">
+            <p class="wDay">|  Today  |</p>
+            <p class="wDay"> Tomorrow |</p>
+            <p class="wDay"> In 2 Days  |</p>
+            <p class="wDay"> In 3 Days |</p>
+          </div>
+          <div id="weatherForcast">
+            <span>
+              <p id="current-temp"></p>
+              <img id="weather-icon" src="" alt="" />
+              <figcaption></figcaption>
+            </span>
+          </div>
+        </section>
+        </p>
+        <figure>
+        </figure>
+        <div>page visits: 3<span id="pageVisits"></span></div>
         <p class="cardContent"></p>
       </section>
 
@@ -124,5 +140,8 @@
 
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburgerMain.js"></script>
+    <script src="scripts/weatherChamber.js"></script>
+    <script src="scripts/banner.js"></script>
+    <script src="scripts/spotlight.js"></script>
   </body>
 </html>

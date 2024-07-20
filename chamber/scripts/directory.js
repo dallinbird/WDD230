@@ -1,6 +1,6 @@
 const testURL = "http://127.0.0.1:5500/chamber/data/directory.json";
 
-const indexDir = document.querySelector("#indexDirectory");
+const indexDir = document.querySelector("#members");
 
 async function getMembersData() {
   const response = await fetch(testURL);
@@ -12,7 +12,7 @@ async function getMembersData() {
 const displayMembers = (members) => {
   // card build code goes here
   members.forEach((member) => {
-    const card = document.createElement("section");
+    const card = document.createElement("article");
     const name = document.createElement("h2");
     const address = document.createElement("p");
     const phone = document.createElement("p");
@@ -35,11 +35,13 @@ const displayMembers = (members) => {
     card.appendChild(address);
     card.appendChild(phone);
     card.appendChild(website);
-    card.appendChild(portrait);
     card.appendChild(memberlevel);
+    card.appendChild(portrait);
 
     indexDir.appendChild(card);
   });
 };
 
 getMembersData();
+
+

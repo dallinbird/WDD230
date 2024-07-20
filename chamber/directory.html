@@ -48,8 +48,15 @@
         <li><a href="directory.html">Directory</a></li>
       </ul>
     </nav>
-    <div><a href="data/directory.json">JSON DATA</a></div>
-    <main id="indexDirectory"></main>
+    <!-- <div><a href="data/directory.json">JSON DATA</a></div> -->
+    <main id="indexDirectory">
+      <div class="displayMenu">
+        <button id="gridButton">⏹️Grid</button>
+        <button id="listButton">📄List</button>
+      </div>
+      <div id="members" class="contactGrid"></div>
+      <div id="spacerBox"></div>
+    </main>
     <footer>
       <section id="contact">
         <h4>Contact info: Phone: (000)-000-0000 | Email: info@LCC.net</h4>
@@ -66,5 +73,6 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburgerMain.js"></script>
     <script src="scripts/directory.js"></script>
+    <script src="scripts/directoryDisplay.js"></script>
   </body>
 </html>
